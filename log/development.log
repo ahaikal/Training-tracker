@@ -49,3 +49,48 @@ Processing by Rails::InfoController#properties as */*
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
   Rendered /Users/alan/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/templates/rails/info/properties.html.erb (0.5ms)
 Completed 200 OK in 15ms (Views: 9.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-09 23:06:11 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/alan/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 19ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (7.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (3.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateDepartments (20140610014428)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (7.2ms)[0m  [1mCREATE TABLE "departments" ("id" serial primary key, "name" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140610014428"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateGroups (20140610014458)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (3.8ms)[0m  [1mCREATE TABLE "groups" ("id" serial primary key, "name" character varying(255), "department_id_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140610014458"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateUsers (20140610014506)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (6.8ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "first_name" character varying(255), "last_name" character varying(255), "supervisor_name" character varying(255), "hire_date" date, "certified_date" date, "employed_date" date, "shift" character varying(255), "group_id_id" integer, "education_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140610014506"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateEducations (20140610014541)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (5.8ms)[0m  [1mCREATE TABLE "educations" ("id" serial primary key, "name" character varying(255), "duration" integer, "date" date, "location" character varying(255), "description" text, "attended" boolean, "date_completed" date, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140610014541"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-09 23:11:49 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/alan/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 27ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2014-06-09 23:11:52 -0400
+Processing by Rails::InfoController#properties as */*
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  Rendered /Users/alan/.rvm/gems/ruby-2.1.1/gems/railties-4.1.0/lib/rails/templates/rails/info/properties.html.erb (0.8ms)
+Completed 200 OK in 27ms (Views: 9.7ms | ActiveRecord: 1.4ms)
