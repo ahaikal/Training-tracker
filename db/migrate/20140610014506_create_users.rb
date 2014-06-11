@@ -8,7 +8,7 @@ class CreateUsers < ActiveRecord::Migration
     	t.date :certified_date
     	t.date :employed_date
     	t.string :shift
-    	t.belongs_to :group_id
+    	t.belongs_to :group
     	t.integer :education_id
 
       t.timestamps
