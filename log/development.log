@@ -884,3 +884,383 @@ Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-11 15:21:40 -0400
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-11 15:21:40 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:52:47.173109"], ["email", "gabe@reingerrowe.biz"], ["first_name", "Leone"], ["hospital_id", 7], ["last_name", "Mohr"], ["password_digest", "$2a$10$.4R1wH1oMM0sWHoOzBMg8.cDpJhDBXGsqTOPeqGqP83dWhHnKMI2q"], ["updated_at", "2014-06-11 20:52:47.173109"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", "2014-06-11 20:52:47.267087"], ["email", "zoie.eichmann@bogisichcole.name"], ["first_name", "Stewart"], ["hospital_id", 1], ["last_name", "Conn"], ["password_digest", "$2a$10$9J/e/NN1n/VSRuEVMBC4uu0H4.Y08gxvCDxkANa5VzulwT7daRUtG"], ["updated_at", "2014-06-11 20:52:47.267087"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:52:47.344749"], ["email", "felipe@sanforddouglas.org"], ["first_name", "Calista"], ["hospital_id", 3], ["last_name", "Bayer"], ["password_digest", "$2a$10$OPBflC5dH/.E/3dEFHTsh.Bs.UdjK3xkP837fFRo7TFruxJ7tLsDq"], ["updated_at", "2014-06-11 20:52:47.344749"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", "2014-06-11 20:52:47.429110"], ["email", "zoie_heel@cronakunze.net"], ["first_name", "Jordi"], ["hospital_id", 6], ["last_name", "Crooks"], ["password_digest", "$2a$10$DyXjwF5Ou/JS.AWNrcxmWu8YXTWC7Akd3HUoxOjKXM31MUloBhxvi"], ["updated_at", "2014-06-11 20:52:47.429110"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:52:47.510782"], ["email", "treie@kuvalis.net"], ["first_name", "Ashly"], ["hospital_id", 3], ["last_name", "Howe"], ["password_digest", "$2a$10$rXZOvMpROahD6UeFZILHmOJpi14mcuYT3fkAPt0FS/aAIAB.2/N.y"], ["updated_at", "2014-06-11 20:52:47.510782"]]
+  [1m[35m (2.1ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:52:47.537384"], ["education_id", 14], ["employed_date", "2013-09-12"], ["first_name", "Karli"], ["group_id", 3], ["hire_date", "2012-11-12"], ["last_name", "Douglas"], ["shift", "laudantium"], ["supervisor_name", "Langosh"], ["updated_at", "2014-06-11 20:52:47.537384"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:52:47.593058"], ["education_id", 92], ["employed_date", "2012-11-12"], ["first_name", "Macey"], ["group_id", 1], ["hire_date", "2012-11-12"], ["last_name", "Brekke"], ["shift", "quo"], ["supervisor_name", "Greenfelder"], ["updated_at", "2014-06-11 20:52:47.593058"]]
+  [1m[35m (2.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:52:47.599097"], ["education_id", 54], ["employed_date", "2013-09-12"], ["first_name", "Bridie"], ["group_id", 1], ["hire_date", "2011-10-12"], ["last_name", "Strosin"], ["shift", "qui"], ["supervisor_name", "Sanford"], ["updated_at", "2014-06-11 20:52:47.599097"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:52:47.602949"], ["education_id", 41], ["employed_date", "2013-09-12"], ["first_name", "Norma"], ["group_id", 6], ["hire_date", "2013-09-12"], ["last_name", "Abernathy"], ["shift", "fugiat"], ["supervisor_name", "Abernathy"], ["updated_at", "2014-06-11 20:52:47.602949"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:52:47.606690"], ["education_id", 96], ["employed_date", "2011-10-12"], ["first_name", "Trenton"], ["group_id", 1], ["hire_date", "2012-11-12"], ["last_name", "Tremblay"], ["shift", "praesentium"], ["supervisor_name", "Purdy"], ["updated_at", "2014-06-11 20:52:47.606690"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:52:47.612284"], ["education_id", 8], ["employed_date", "2012-11-12"], ["first_name", "Kraig"], ["group_id", 6], ["hire_date", "2012-11-12"], ["last_name", "Stroman"], ["shift", "et"], ["supervisor_name", "Crona"], ["updated_at", "2014-06-11 20:52:47.612284"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:52:47.616313"], ["education_id", 45], ["employed_date", "2015-11-11"], ["first_name", "Laura"], ["group_id", 7], ["hire_date", "2013-09-12"], ["last_name", "Maggio"], ["shift", "iusto"], ["supervisor_name", "Metz"], ["updated_at", "2014-06-11 20:52:47.616313"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:52:47.620023"], ["education_id", 2], ["employed_date", "2012-11-12"], ["first_name", "Jerad"], ["group_id", 1], ["hire_date", "2015-11-11"], ["last_name", "D'Amore"], ["shift", "velit"], ["supervisor_name", "O'Kon"], ["updated_at", "2014-06-11 20:52:47.620023"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:52:47.623622"], ["education_id", 92], ["employed_date", "2012-11-12"], ["first_name", "Carson"], ["group_id", 0], ["hire_date", "2012-11-12"], ["last_name", "Blanda"], ["shift", "ipsa"], ["supervisor_name", "Powlowski"], ["updated_at", "2014-06-11 20:52:47.623622"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:52:47.627337"], ["education_id", 15], ["employed_date", "2015-11-11"], ["first_name", "Christa"], ["group_id", 4], ["hire_date", "2012-11-12"], ["last_name", "Bashirian"], ["shift", "non"], ["supervisor_name", "Jacobson"], ["updated_at", "2014-06-11 20:52:47.627337"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:52:47.630955"], ["education_id", 6], ["employed_date", "2012-11-12"], ["first_name", "Mose"], ["group_id", 5], ["hire_date", "2012-11-12"], ["last_name", "Heller"], ["shift", "qui"], ["supervisor_name", "Prohaska"], ["updated_at", "2014-06-11 20:52:47.630955"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:52:47.634348"], ["education_id", 68], ["employed_date", "2013-09-12"], ["first_name", "Mozelle"], ["group_id", 7], ["hire_date", "2015-11-11"], ["last_name", "Kassulke"], ["shift", "nihil"], ["supervisor_name", "Howell"], ["updated_at", "2014-06-11 20:52:47.634348"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:52:47.637723"], ["education_id", 23], ["employed_date", "2012-11-12"], ["first_name", "Twila"], ["group_id", 4], ["hire_date", "2015-11-11"], ["last_name", "Keeling"], ["shift", "dolorum"], ["supervisor_name", "Lesch"], ["updated_at", "2014-06-11 20:52:47.637723"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:52:47.641447"], ["education_id", 21], ["employed_date", "2012-11-12"], ["first_name", "Frank"], ["group_id", 9], ["hire_date", "2012-11-12"], ["last_name", "Tillman"], ["shift", "nihil"], ["supervisor_name", "Kassulke"], ["updated_at", "2014-06-11 20:52:47.641447"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:52:47.645937"], ["education_id", 89], ["employed_date", "2013-09-12"], ["first_name", "Laura"], ["group_id", 4], ["hire_date", "2013-09-12"], ["last_name", "Kutch"], ["shift", "magnam"], ["supervisor_name", "Jaskolski"], ["updated_at", "2014-06-11 20:52:47.645937"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:52:47.649558"], ["education_id", 17], ["employed_date", "2015-11-11"], ["first_name", "Willie"], ["group_id", 2], ["hire_date", "2012-11-12"], ["last_name", "Gerlach"], ["shift", "illum"], ["supervisor_name", "Miller"], ["updated_at", "2014-06-11 20:52:47.649558"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:52:47.653244"], ["education_id", 19], ["employed_date", "2012-11-12"], ["first_name", "Greg"], ["group_id", 6], ["hire_date", "2013-09-12"], ["last_name", "Lind"], ["shift", "voluptatem"], ["supervisor_name", "Powlowski"], ["updated_at", "2014-06-11 20:52:47.653244"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:52:47.656747"], ["education_id", 73], ["employed_date", "2011-10-12"], ["first_name", "Walter"], ["group_id", 5], ["hire_date", "2013-09-12"], ["last_name", "Hessel"], ["shift", "animi"], ["supervisor_name", "Heaney"], ["updated_at", "2014-06-11 20:52:47.656747"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:52:47.660068"], ["education_id", 23], ["employed_date", "2011-10-12"], ["first_name", "Lexie"], ["group_id", 8], ["hire_date", "2011-10-12"], ["last_name", "Hansen"], ["shift", "laboriosam"], ["supervisor_name", "Powlowski"], ["updated_at", "2014-06-11 20:52:47.660068"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:52:47.663584"], ["education_id", 2], ["employed_date", "2012-11-12"], ["first_name", "Aubrey"], ["group_id", 8], ["hire_date", "2015-11-11"], ["last_name", "Nitzsche"], ["shift", "quia"], ["supervisor_name", "Jones"], ["updated_at", "2014-06-11 20:52:47.663584"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mAdmin Load (1.1ms)[0m  [1mSELECT "admins".* FROM "admins"[0m
+  [1m[35mAdmin Load (1.7ms)[0m  SELECT  "admins".* FROM "admins"   ORDER BY "admins"."id" DESC LIMIT 1
+  [1m[36mAdmin Load (1.1ms)[0m  [1mSELECT  "admins".* FROM "admins"   ORDER BY "admins"."id" ASC LIMIT 1[0m
+  [1m[35mAdmin Load (1.2ms)[0m  SELECT  "admins".* FROM "admins"   ORDER BY "admins"."id" ASC LIMIT 1
+  [1m[36mHospital Load (1.1ms)[0m  [1mSELECT  "hospitals".* FROM "hospitals"  WHERE "hospitals"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mAdmin Load (1.1ms)[0m  SELECT  "admins".* FROM "admins"   ORDER BY "admins"."id" ASC LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-11 16:54:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DepartmentController#index as HTML
+  Rendered department/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 275ms (Views: 222.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:16 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-11 16:54:22 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-11 16:54:29 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (2.0ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000/admin/1
+Completed 302 Found in 127ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/admin/1" for 127.0.0.1 at 2014-06-11 16:54:29 -0400
+
+AbstractController::ActionNotFound (The action 'show' could not be found for AdminController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
