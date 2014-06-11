@@ -26,3 +26,30 @@ User.create(
     )
 
 end
+
+20.times do
+
+Hospital.create(
+	name: Faker::Company.name,
+	location: Faker::Address.state
+	)
+end
+
+20.times do
+	Department.create(
+
+		name: Faker::Commerce.department,
+		hospital_id: Faker::Number.number(1),
+		admin_id: Faker::Number.number(1)
+
+
+
+
+		)
+end
+
+
+
+
+
+

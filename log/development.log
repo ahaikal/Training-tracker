@@ -1264,3 +1264,276 @@ AbstractController::ActionNotFound (The action 'show' could not be found for Adm
 
 
   Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:33.816514"], ["email", "lucious_monahan@bednaraltenwerth.net"], ["first_name", "Theodore"], ["hospital_id", 7], ["last_name", "Crona"], ["password_digest", "$2a$10$ww1iUeXgcfnefMzpW9V88uy4BAsEZrITei4ahKTSGxzzjn..VtyEG"], ["updated_at", "2014-06-11 20:59:33.816514"]]
+  [1m[35m (3.0ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", "2014-06-11 20:59:33.905346"], ["email", "mae@graham.net"], ["first_name", "Trey"], ["hospital_id", 6], ["last_name", "Wilkinson"], ["password_digest", "$2a$10$zKizgczoKD8PdkL.lHvXR.lRjLjol3/2AmRWl8tgkRAOCCQWZod1q"], ["updated_at", "2014-06-11 20:59:33.905346"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:33.983361"], ["email", "noelia.luettgen@schuppe.com"], ["first_name", "Genesis"], ["hospital_id", 2], ["last_name", "Jakubowski"], ["password_digest", "$2a$10$nc9ZO.Kr.uzAr9sGhvVE7OZPVHd615zgu.K9XnXeDau2QH31n6ely"], ["updated_at", "2014-06-11 20:59:33.983361"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", "2014-06-11 20:59:34.061745"], ["email", "charlie_rippin@weinatfay.biz"], ["first_name", "Mireya"], ["hospital_id", 3], ["last_name", "Rice"], ["password_digest", "$2a$10$rsWAmjazi.xWhbU9qTbZiuL4OveG7b5pzVW.HYooBZuhsjLGxMQQW"], ["updated_at", "2014-06-11 20:59:34.061745"]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:34.141014"], ["email", "taryn_frami@lindgren.info"], ["first_name", "Bessie"], ["hospital_id", 4], ["last_name", "Stokes"], ["password_digest", "$2a$10$rkvkoLdZ3OnzPa6K33m97uMVlr5563Q0BVoD9U/lvbjlIi6.9ApHa"], ["updated_at", "2014-06-11 20:59:34.141014"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:34.169527"], ["education_id", 24], ["employed_date", "2015-11-11"], ["first_name", "Sim"], ["group_id", 1], ["hire_date", "2012-11-12"], ["last_name", "Paucek"], ["shift", "suscipit"], ["supervisor_name", "Ferry"], ["updated_at", "2014-06-11 20:59:34.169527"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:34.176002"], ["education_id", 4], ["employed_date", "2012-11-12"], ["first_name", "Monty"], ["group_id", 5], ["hire_date", "2015-11-11"], ["last_name", "Gutmann"], ["shift", "consequatur"], ["supervisor_name", "Haag"], ["updated_at", "2014-06-11 20:59:34.176002"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:34.225561"], ["education_id", 36], ["employed_date", "2011-10-12"], ["first_name", "Tristin"], ["group_id", 0], ["hire_date", "2015-11-11"], ["last_name", "Goldner"], ["shift", "quis"], ["supervisor_name", "Mante"], ["updated_at", "2014-06-11 20:59:34.225561"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:34.231181"], ["education_id", 63], ["employed_date", "2012-11-12"], ["first_name", "Danny"], ["group_id", 9], ["hire_date", "2012-11-12"], ["last_name", "Wintheiser"], ["shift", "nisi"], ["supervisor_name", "Kassulke"], ["updated_at", "2014-06-11 20:59:34.231181"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:59:34.235443"], ["education_id", 59], ["employed_date", "2015-11-11"], ["first_name", "Mateo"], ["group_id", 3], ["hire_date", "2012-11-12"], ["last_name", "Hegmann"], ["shift", "est"], ["supervisor_name", "Prosacco"], ["updated_at", "2014-06-11 20:59:34.235443"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:59:34.239948"], ["education_id", 42], ["employed_date", "2012-11-12"], ["first_name", "Gonzalo"], ["group_id", 5], ["hire_date", "2012-11-12"], ["last_name", "Kilback"], ["shift", "sit"], ["supervisor_name", "Hettinger"], ["updated_at", "2014-06-11 20:59:34.239948"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:34.243756"], ["education_id", 2], ["employed_date", "2011-10-12"], ["first_name", "Cody"], ["group_id", 1], ["hire_date", "2011-10-12"], ["last_name", "Mills"], ["shift", "et"], ["supervisor_name", "Kohler"], ["updated_at", "2014-06-11 20:59:34.243756"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:34.247250"], ["education_id", 98], ["employed_date", "2011-10-12"], ["first_name", "Aaliyah"], ["group_id", 6], ["hire_date", "2013-09-12"], ["last_name", "Klocko"], ["shift", "nostrum"], ["supervisor_name", "Ratke"], ["updated_at", "2014-06-11 20:59:34.247250"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:34.250876"], ["education_id", 47], ["employed_date", "2015-11-11"], ["first_name", "Aurelie"], ["group_id", 9], ["hire_date", "2012-11-12"], ["last_name", "McClure"], ["shift", "commodi"], ["supervisor_name", "Moore"], ["updated_at", "2014-06-11 20:59:34.250876"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:34.254321"], ["education_id", 79], ["employed_date", "2011-10-12"], ["first_name", "Noemy"], ["group_id", 7], ["hire_date", "2015-11-11"], ["last_name", "Nitzsche"], ["shift", "delectus"], ["supervisor_name", "Rogahn"], ["updated_at", "2014-06-11 20:59:34.254321"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:34.257791"], ["education_id", 57], ["employed_date", "2011-10-12"], ["first_name", "Wilton"], ["group_id", 8], ["hire_date", "2011-10-12"], ["last_name", "Schinner"], ["shift", "et"], ["supervisor_name", "Schneider"], ["updated_at", "2014-06-11 20:59:34.257791"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:34.261387"], ["education_id", 94], ["employed_date", "2015-11-11"], ["first_name", "Odessa"], ["group_id", 7], ["hire_date", "2015-11-11"], ["last_name", "Bechtelar"], ["shift", "reprehenderit"], ["supervisor_name", "O'Connell"], ["updated_at", "2014-06-11 20:59:34.261387"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:59:34.264968"], ["education_id", 42], ["employed_date", "2015-11-11"], ["first_name", "Berta"], ["group_id", 9], ["hire_date", "2015-11-11"], ["last_name", "Blanda"], ["shift", "nisi"], ["supervisor_name", "Hodkiewicz"], ["updated_at", "2014-06-11 20:59:34.264968"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:34.268710"], ["education_id", 79], ["employed_date", "2011-10-12"], ["first_name", "Josh"], ["group_id", 2], ["hire_date", "2015-11-11"], ["last_name", "Collier"], ["shift", "atque"], ["supervisor_name", "Schumm"], ["updated_at", "2014-06-11 20:59:34.268710"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:59:34.273791"], ["education_id", 9], ["employed_date", "2011-10-12"], ["first_name", "Jensen"], ["group_id", 0], ["hire_date", "2015-11-11"], ["last_name", "Schowalter"], ["shift", "eveniet"], ["supervisor_name", "Hermiston"], ["updated_at", "2014-06-11 20:59:34.273791"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:34.277520"], ["education_id", 91], ["employed_date", "2011-10-12"], ["first_name", "Maurine"], ["group_id", 4], ["hire_date", "2015-11-11"], ["last_name", "Pfeffer"], ["shift", "quod"], ["supervisor_name", "Hansen"], ["updated_at", "2014-06-11 20:59:34.277520"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:34.281080"], ["education_id", 67], ["employed_date", "2013-09-12"], ["first_name", "Jovany"], ["group_id", 6], ["hire_date", "2012-11-12"], ["last_name", "Howe"], ["shift", "aut"], ["supervisor_name", "Lang"], ["updated_at", "2014-06-11 20:59:34.281080"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:34.284649"], ["education_id", 47], ["employed_date", "2013-09-12"], ["first_name", "Hal"], ["group_id", 0], ["hire_date", "2015-11-11"], ["last_name", "Kunde"], ["shift", "quaerat"], ["supervisor_name", "Batz"], ["updated_at", "2014-06-11 20:59:34.284649"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:34.287980"], ["education_id", 20], ["employed_date", "2011-10-12"], ["first_name", "Vincenza"], ["group_id", 0], ["hire_date", "2011-10-12"], ["last_name", "Zboncak"], ["shift", "atque"], ["supervisor_name", "Jerde"], ["updated_at", "2014-06-11 20:59:34.287980"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:34.291359"], ["education_id", 46], ["employed_date", "2013-09-12"], ["first_name", "Jarod"], ["group_id", 1], ["hire_date", "2011-10-12"], ["last_name", "Keebler"], ["shift", "nesciunt"], ["supervisor_name", "Wolf"], ["updated_at", "2014-06-11 20:59:34.291359"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:56.690590"], ["email", "aron_turcotte@stiedemann.info"], ["first_name", "Lane"], ["hospital_id", 2], ["last_name", "Bosco"], ["password_digest", "$2a$10$gejM1f9UB9EQViLKPUezguQIN8f/MOf4e2.Sby/VuPK7pcRs01Q42"], ["updated_at", "2014-06-11 20:59:56.690590"]]
+  [1m[35m (2.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", "2014-06-11 20:59:56.778967"], ["email", "lorenz@anderson.org"], ["first_name", "Trudie"], ["hospital_id", 7], ["last_name", "Kerluke"], ["password_digest", "$2a$10$JZo1BnHVQA73yUZUbSO8dezNRJSd79TeOU1cv87x.oyzUGmMHjJs2"], ["updated_at", "2014-06-11 20:59:56.778967"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:56.857264"], ["email", "jordi_upton@cummerata.org"], ["first_name", "Desiree"], ["hospital_id", 0], ["last_name", "Quitzon"], ["password_digest", "$2a$10$gwkWuQB8Wo6HWfDo2G2SDOW/25MdsYKWUPjJgLOniVE/uvrvJuRJa"], ["updated_at", "2014-06-11 20:59:56.857264"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["created_at", "2014-06-11 20:59:56.938091"], ["email", "birdie@nienow.net"], ["first_name", "Jannie"], ["hospital_id", 8], ["last_name", "Schimmel"], ["password_digest", "$2a$10$yD1JhYo0gFrCLb2LObdPLOLe2MUOu.UeKb./sSMszQYm7PbT2WjDi"], ["updated_at", "2014-06-11 20:59:56.938091"]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "admins" ("created_at", "email", "first_name", "hospital_id", "last_name", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.020388"], ["email", "prudence@lakin.net"], ["first_name", "Tyshawn"], ["hospital_id", 1], ["last_name", "Wyman"], ["password_digest", "$2a$10$yJ.BXjTlS3Qihd6eKlccSeyc4W71KTSi/AhQ/Jqe2DUbzf0wpU6Hq"], ["updated_at", "2014-06-11 20:59:57.020388"]]
+  [1m[35m (1.9ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:59:57.046019"], ["education_id", 94], ["employed_date", "2012-11-12"], ["first_name", "Virgie"], ["group_id", 7], ["hire_date", "2015-11-11"], ["last_name", "Murphy"], ["shift", "et"], ["supervisor_name", "Nikolaus"], ["updated_at", "2014-06-11 20:59:57.046019"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:57.052726"], ["education_id", 99], ["employed_date", "2013-09-12"], ["first_name", "Susan"], ["group_id", 6], ["hire_date", "2012-11-12"], ["last_name", "Rutherford"], ["shift", "architecto"], ["supervisor_name", "Wilderman"], ["updated_at", "2014-06-11 20:59:57.052726"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:57.103502"], ["education_id", 19], ["employed_date", "2011-10-12"], ["first_name", "Daniella"], ["group_id", 9], ["hire_date", "2015-11-11"], ["last_name", "Kuhic"], ["shift", "et"], ["supervisor_name", "Orn"], ["updated_at", "2014-06-11 20:59:57.103502"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:57.109518"], ["education_id", 58], ["employed_date", "2013-09-12"], ["first_name", "Hassie"], ["group_id", 6], ["hire_date", "2012-11-12"], ["last_name", "Hansen"], ["shift", "sit"], ["supervisor_name", "Russel"], ["updated_at", "2014-06-11 20:59:57.109518"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.114617"], ["education_id", 1], ["employed_date", "2013-09-12"], ["first_name", "Marilyne"], ["group_id", 7], ["hire_date", "2013-09-12"], ["last_name", "DuBuque"], ["shift", "in"], ["supervisor_name", "Glover"], ["updated_at", "2014-06-11 20:59:57.114617"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.118382"], ["education_id", 90], ["employed_date", "2013-09-12"], ["first_name", "Clyde"], ["group_id", 5], ["hire_date", "2011-10-12"], ["last_name", "Hagenes"], ["shift", "aspernatur"], ["supervisor_name", "Schoen"], ["updated_at", "2014-06-11 20:59:57.118382"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.122262"], ["education_id", 47], ["employed_date", "2015-11-11"], ["first_name", "Maggie"], ["group_id", 2], ["hire_date", "2015-11-11"], ["last_name", "Bosco"], ["shift", "rerum"], ["supervisor_name", "Heller"], ["updated_at", "2014-06-11 20:59:57.122262"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2013-09-12"], ["created_at", "2014-06-11 20:59:57.127216"], ["education_id", 34], ["employed_date", "2012-11-12"], ["first_name", "Tavares"], ["group_id", 9], ["hire_date", "2013-09-12"], ["last_name", "Weber"], ["shift", "sint"], ["supervisor_name", "Murphy"], ["updated_at", "2014-06-11 20:59:57.127216"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:57.131103"], ["education_id", 77], ["employed_date", "2015-11-11"], ["first_name", "Jonas"], ["group_id", 6], ["hire_date", "2013-09-12"], ["last_name", "Kerluke"], ["shift", "et"], ["supervisor_name", "Carroll"], ["updated_at", "2014-06-11 20:59:57.131103"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:57.134980"], ["education_id", 47], ["employed_date", "2015-11-11"], ["first_name", "Cassandra"], ["group_id", 5], ["hire_date", "2011-10-12"], ["last_name", "Mosciski"], ["shift", "laborum"], ["supervisor_name", "Barrows"], ["updated_at", "2014-06-11 20:59:57.134980"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:57.139650"], ["education_id", 59], ["employed_date", "2013-09-12"], ["first_name", "Noble"], ["group_id", 2], ["hire_date", "2013-09-12"], ["last_name", "Reynolds"], ["shift", "beatae"], ["supervisor_name", "Bradtke"], ["updated_at", "2014-06-11 20:59:57.139650"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:57.144378"], ["education_id", 37], ["employed_date", "2015-11-11"], ["first_name", "Earline"], ["group_id", 9], ["hire_date", "2011-10-12"], ["last_name", "Gottlieb"], ["shift", "totam"], ["supervisor_name", "Rogahn"], ["updated_at", "2014-06-11 20:59:57.144378"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2015-11-11"], ["created_at", "2014-06-11 20:59:57.148028"], ["education_id", 83], ["employed_date", "2015-11-11"], ["first_name", "Joannie"], ["group_id", 1], ["hire_date", "2011-10-12"], ["last_name", "Casper"], ["shift", "consequatur"], ["supervisor_name", "Nitzsche"], ["updated_at", "2014-06-11 20:59:57.148028"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.151535"], ["education_id", 92], ["employed_date", "2015-11-11"], ["first_name", "Godfrey"], ["group_id", 1], ["hire_date", "2012-11-12"], ["last_name", "Hettinger"], ["shift", "numquam"], ["supervisor_name", "Erdman"], ["updated_at", "2014-06-11 20:59:57.151535"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.155149"], ["education_id", 17], ["employed_date", "2015-11-11"], ["first_name", "Bertram"], ["group_id", 9], ["hire_date", "2012-11-12"], ["last_name", "Dare"], ["shift", "dolores"], ["supervisor_name", "Spencer"], ["updated_at", "2014-06-11 20:59:57.155149"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:57.158831"], ["education_id", 74], ["employed_date", "2011-10-12"], ["first_name", "Rosendo"], ["group_id", 5], ["hire_date", "2011-10-12"], ["last_name", "Feest"], ["shift", "nostrum"], ["supervisor_name", "Hane"], ["updated_at", "2014-06-11 20:59:57.158831"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.162312"], ["education_id", 33], ["employed_date", "2015-11-11"], ["first_name", "Alana"], ["group_id", 0], ["hire_date", "2015-11-11"], ["last_name", "Wilkinson"], ["shift", "a"], ["supervisor_name", "Osinski"], ["updated_at", "2014-06-11 20:59:57.162312"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.165805"], ["education_id", 54], ["employed_date", "2012-11-12"], ["first_name", "Lucio"], ["group_id", 4], ["hire_date", "2015-11-11"], ["last_name", "Morissette"], ["shift", "id"], ["supervisor_name", "Mitchell"], ["updated_at", "2014-06-11 20:59:57.165805"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["certified_date", "2012-11-12"], ["created_at", "2014-06-11 20:59:57.169132"], ["education_id", 60], ["employed_date", "2012-11-12"], ["first_name", "Elissa"], ["group_id", 6], ["hire_date", "2015-11-11"], ["last_name", "Schaden"], ["shift", "nulla"], ["supervisor_name", "Willms"], ["updated_at", "2014-06-11 20:59:57.169132"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("certified_date", "created_at", "education_id", "employed_date", "first_name", "group_id", "hire_date", "last_name", "shift", "supervisor_name", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["certified_date", "2011-10-12"], ["created_at", "2014-06-11 20:59:57.172659"], ["education_id", 57], ["employed_date", "2011-10-12"], ["first_name", "June"], ["group_id", 9], ["hire_date", "2012-11-12"], ["last_name", "Stamm"], ["shift", "quo"], ["supervisor_name", "Leannon"], ["updated_at", "2014-06-11 20:59:57.172659"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.189742"], ["location", "Mississippi"], ["name", "Rodriguez-VonRueden"], ["updated_at", "2014-06-11 20:59:57.189742"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.194712"], ["location", "Arizona"], ["name", "Koch-Kris"], ["updated_at", "2014-06-11 20:59:57.194712"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.197501"], ["location", "Nevada"], ["name", "Terry LLC"], ["updated_at", "2014-06-11 20:59:57.197501"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.200240"], ["location", "Mississippi"], ["name", "Abbott-Monahan"], ["updated_at", "2014-06-11 20:59:57.200240"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.203354"], ["location", "Arizona"], ["name", "Bauch, DuBuque and Schulist"], ["updated_at", "2014-06-11 20:59:57.203354"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.206628"], ["location", "Washington"], ["name", "DuBuque-Rutherford"], ["updated_at", "2014-06-11 20:59:57.206628"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.209765"], ["location", "Maine"], ["name", "Hoeger Inc"], ["updated_at", "2014-06-11 20:59:57.209765"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.212453"], ["location", "Kansas"], ["name", "Altenwerth, Hayes and Stiedemann"], ["updated_at", "2014-06-11 20:59:57.212453"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.214942"], ["location", "South Dakota"], ["name", "Jaskolski-Schimmel"], ["updated_at", "2014-06-11 20:59:57.214942"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.217440"], ["location", "Nevada"], ["name", "Stokes-Volkman"], ["updated_at", "2014-06-11 20:59:57.217440"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.219904"], ["location", "South Carolina"], ["name", "Thompson and Sons"], ["updated_at", "2014-06-11 20:59:57.219904"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.222544"], ["location", "Florida"], ["name", "Turcotte-Homenick"], ["updated_at", "2014-06-11 20:59:57.222544"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.225229"], ["location", "New Hampshire"], ["name", "Pouros, Cole and Murray"], ["updated_at", "2014-06-11 20:59:57.225229"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.227720"], ["location", "Montana"], ["name", "D'Amore Group"], ["updated_at", "2014-06-11 20:59:57.227720"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.230341"], ["location", "Connecticut"], ["name", "Wisoky, Kutch and Osinski"], ["updated_at", "2014-06-11 20:59:57.230341"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.233047"], ["location", "New York"], ["name", "Hamill, Auer and Schultz"], ["updated_at", "2014-06-11 20:59:57.233047"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.235986"], ["location", "Minnesota"], ["name", "Cronin, Goodwin and Bosco"], ["updated_at", "2014-06-11 20:59:57.235986"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.238479"], ["location", "Hawaii"], ["name", "Dicki and Sons"], ["updated_at", "2014-06-11 20:59:57.238479"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-06-11 20:59:57.242224"], ["location", "Nevada"], ["name", "Lakin-Hackett"], ["updated_at", "2014-06-11 20:59:57.242224"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "hospitals" ("created_at", "location", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2014-06-11 20:59:57.245127"], ["location", "Tennessee"], ["name", "Durgan, Hansen and Schuster"], ["updated_at", "2014-06-11 20:59:57.245127"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 2], ["created_at", "2014-06-11 20:59:57.259909"], ["hospital_id", 3], ["name", "Home, Garden & Tools"], ["updated_at", "2014-06-11 20:59:57.259909"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 5], ["created_at", "2014-06-11 20:59:57.265114"], ["hospital_id", 7], ["name", "Books"], ["updated_at", "2014-06-11 20:59:57.265114"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 4], ["created_at", "2014-06-11 20:59:57.267739"], ["hospital_id", 7], ["name", "Grocery, Health & Beauty"], ["updated_at", "2014-06-11 20:59:57.267739"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 0], ["created_at", "2014-06-11 20:59:57.270242"], ["hospital_id", 2], ["name", "Automotive & Industrial"], ["updated_at", "2014-06-11 20:59:57.270242"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 0], ["created_at", "2014-06-11 20:59:57.272606"], ["hospital_id", 0], ["name", "Books"], ["updated_at", "2014-06-11 20:59:57.272606"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 7], ["created_at", "2014-06-11 20:59:57.276103"], ["hospital_id", 6], ["name", "Electronics & Computers"], ["updated_at", "2014-06-11 20:59:57.276103"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 1], ["created_at", "2014-06-11 20:59:57.278913"], ["hospital_id", 7], ["name", "Books"], ["updated_at", "2014-06-11 20:59:57.278913"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 9], ["created_at", "2014-06-11 20:59:57.281227"], ["hospital_id", 5], ["name", "Clothing, Shoes & Jewelery"], ["updated_at", "2014-06-11 20:59:57.281227"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 4], ["created_at", "2014-06-11 20:59:57.283502"], ["hospital_id", 6], ["name", "Automotive & Industrial"], ["updated_at", "2014-06-11 20:59:57.283502"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 9], ["created_at", "2014-06-11 20:59:57.285823"], ["hospital_id", 1], ["name", "Sports & Outdoors"], ["updated_at", "2014-06-11 20:59:57.285823"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 9], ["created_at", "2014-06-11 20:59:57.288307"], ["hospital_id", 4], ["name", "Books"], ["updated_at", "2014-06-11 20:59:57.288307"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 0], ["created_at", "2014-06-11 20:59:57.290562"], ["hospital_id", 5], ["name", "Electronics & Computers"], ["updated_at", "2014-06-11 20:59:57.290562"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 7], ["created_at", "2014-06-11 20:59:57.292817"], ["hospital_id", 9], ["name", "Home, Garden & Tools"], ["updated_at", "2014-06-11 20:59:57.292817"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 1], ["created_at", "2014-06-11 20:59:57.295088"], ["hospital_id", 7], ["name", "Electronics & Computers"], ["updated_at", "2014-06-11 20:59:57.295088"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 8], ["created_at", "2014-06-11 20:59:57.297330"], ["hospital_id", 2], ["name", "Books"], ["updated_at", "2014-06-11 20:59:57.297330"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 9], ["created_at", "2014-06-11 20:59:57.299626"], ["hospital_id", 4], ["name", "Electronics & Computers"], ["updated_at", "2014-06-11 20:59:57.299626"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 4], ["created_at", "2014-06-11 20:59:57.301885"], ["hospital_id", 1], ["name", "Sports & Outdoors"], ["updated_at", "2014-06-11 20:59:57.301885"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 2], ["created_at", "2014-06-11 20:59:57.304145"], ["hospital_id", 4], ["name", "Sports & Outdoors"], ["updated_at", "2014-06-11 20:59:57.304145"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["admin_id", 6], ["created_at", "2014-06-11 20:59:57.306402"], ["hospital_id", 5], ["name", "Toys, Kids & Baby"], ["updated_at", "2014-06-11 20:59:57.306402"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "departments" ("admin_id", "created_at", "hospital_id", "name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["admin_id", 2], ["created_at", "2014-06-11 20:59:57.308625"], ["hospital_id", 8], ["name", "Sports & Outdoors"], ["updated_at", "2014-06-11 20:59:57.308625"]]
+  [1m[35m (0.4ms)[0m  COMMIT
