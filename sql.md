@@ -37,18 +37,26 @@
 		<type label="SET" length="1" sql="SET" quote=""/>
 		<type label="Bit" length="0" sql="bit" quote=""/>
 	</group>
-</datatypes><table x="127" y="103" name="Departments">
+</datatypes><table x="602" y="195" name="Departments">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="Name" null="1" autoincrement="0">
 <datatype>VARCHAR(255)</datatype>
 <default>NULL</default></row>
+<row name="admin_id" null="1" autoincrement="0">
+<datatype>INTEGER(255)</datatype>
+<default>NULL</default><relation table="Admins" row="id" />
+</row>
+<row name="hospital_id" null="1" autoincrement="0">
+<datatype>INTEGER(255)</datatype>
+<default>NULL</default><relation table="Hospitals" row="id" />
+</row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="790" y="102" name="InServices">
+<table x="606" y="365" name="InServices">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -77,7 +85,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="534" y="101" name="Users">
+<table x="143" y="360" name="Users">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -114,7 +122,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="332" y="101" name="Groups">
+<table x="394" y="300" name="Groups">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -124,6 +132,44 @@
 <row name="department_id" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>
 <default>NULL</default><relation table="Departments" row="id" />
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="393" y="79" name="Hospitals">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="name" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="location" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="137" y="166" name="Admins">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="first_name" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="last_name" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="email" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="password" null="1" autoincrement="0">
+<datatype>VARCHAR(255)</datatype>
+<default>NULL</default></row>
+<row name="hospital_id" null="1" autoincrement="0">
+<datatype>INTEGER(255)</datatype>
+<default>NULL</default><relation table="Hospitals" row="id" />
 </row>
 <key type="PRIMARY" name="">
 <part>id</part>
