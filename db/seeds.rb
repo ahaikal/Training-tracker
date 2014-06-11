@@ -41,14 +41,24 @@ end
 		name: Faker::Commerce.department,
 		hospital_id: Faker::Number.number(1),
 		admin_id: Faker::Number.number(1)
-
-
-
-
 		)
 end
 
+20.times do
+Group.create(
+	name: Faker::Name.name,
+	department_id: Faker::Number.number(1)
+	)
+end
 
+20.times do 
+	Education.create(
+	name: Faker::Name.name,
+	duration: Faker::Number.digit,
+	location: Faker::Address.state,
+	description: Faker::Lorem.sentence(5, true),
+		)
+end
 
 
 
