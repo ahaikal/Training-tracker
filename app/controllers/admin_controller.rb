@@ -6,5 +6,7 @@ class AdminController < ApplicationController
 
 	def show
   @admin = Admin.find(params[:id])
+  @hospital = @admin.hospital
+  @departments = @hospital.departments
 	end
 end

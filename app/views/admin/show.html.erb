@@ -2,11 +2,19 @@
 
 <h1>Welcome <%= @admin.name %></h1>
 <h4>Hospital: <%= @admin.hospital.name %></h4>
-	<h4>Departments</h4>
-	<ul >
-		<% @admin.hospital.departments.each do |dep| %>
-	    <li><%= dep.name %></li>
-	    <% end %>
+	
+	<ul>
+		<% @departments.each do |dep| %>
+		<li>Department: <%= dep.name %>
+				<ul>
+					<% dep.groups.each do |group| %>
+					<li>
+						<%= group.name %>
+					</li>
+						<% end %>
+				</ul>
+		</li>
+   <% end %>
+
+
 	</ul>
-	
-	
