@@ -1,0 +1,12 @@
+
+
+<h1>Welcome <%= @admin.name %></h1>
+<h4>Hospital: <%= @admin.hospital.name %></h4>
+	<h4>Departments</h4>
+	<ul >
+		<% @admin.hospital.departments.each do |dep| %>
+	    <li><%= dep.name %></li>
+	    <% end %>
+	</ul>
+	
+	
