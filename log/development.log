@@ -5917,3 +5917,2037 @@ Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-12 01:43:29 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-12 01:43:29 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 00:53:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DepartmentController#index as HTML
+  Rendered department/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 363ms (Views: 311.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:16 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:53:24 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (70.6ms)
+Completed 200 OK in 89ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:25 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:53:31 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (1.3ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 173ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/sessions" for 127.0.0.1 at 2014-06-13 00:53:53 -0400
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SessionsController):
+  actionpack (4.1.0) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:57 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:53:58 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:54:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.9ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 85ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:54:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 81ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:54:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.6ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 79ms (ActiveRecord: 0.6ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:54:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.6ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 79ms (ActiveRecord: 0.6ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:54:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.9ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 78ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:54:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.8ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 78ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:54:06 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.7ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user.index
+Completed 302 Found in 82ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:55:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 272ms (Views: 258.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:55:48 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:55:53 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (1.4ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.show
+Completed 302 Found in 119ms (ActiveRecord: 5.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:55:53 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.7ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user.show
+Completed 302 Found in 78ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:55:53 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.show
+Completed 302 Found in 78ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:55:53 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.9ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user.show
+Completed 302 Found in 87ms (ActiveRecord: 0.9ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:55:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.show
+Completed 302 Found in 80ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:55:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.7ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user.show
+Completed 302 Found in 77ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:55:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user.show
+Completed 302 Found in 80ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:15 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:56:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.6ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user
+Completed 302 Found in 104ms (ActiveRecord: 4.8ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:56:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user
+Completed 302 Found in 85ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:56:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.7ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user
+Completed 302 Found in 80ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:56:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user
+Completed 302 Found in 79ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:56:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.8ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user
+Completed 302 Found in 78ms (ActiveRecord: 0.8ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:56:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000user
+Completed 302 Found in 79ms (ActiveRecord: 0.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:56:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.7ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000user
+Completed 302 Found in 81ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:56:59 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:00 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 00:57:05 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[35mAdmin Load (0.5ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1
+Redirected to http://localhost:3000/admin/1
+Completed 302 Found in 104ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/admin/1" for 127.0.0.1 at 2014-06-13 00:57:05 -0400
+Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.6ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mHospital Load (0.9ms)[0m  SELECT  "hospitals".* FROM "hospitals"  WHERE "hospitals"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mDepartment Load (0.8ms)[0m  [1mSELECT "departments".* FROM "departments"  WHERE "departments"."hospital_id" = $1[0m  [["hospital_id", 7]]
+  [1m[35mGroup Load (0.6ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 2]]
+  [1m[36mGroup Load (0.7ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 3]]
+  [1m[35mGroup Load (0.5ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 7]]
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 14]]
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 32]]
+  [1m[36mGroup Load (0.4ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 33]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 34]]
+  Rendered admin/show.html.erb within layouts/application (47.5ms)
+Completed 200 OK in 175ms (Views: 54.0ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 00:57:06 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:22 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 01:00:27 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.5ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000/admin/1
+Completed 302 Found in 104ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/admin/1" for 127.0.0.1 at 2014-06-13 01:00:27 -0400
+Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mHospital Load (0.5ms)[0m  [1mSELECT  "hospitals".* FROM "hospitals"  WHERE "hospitals"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mDepartment Load (0.7ms)[0m  [1mSELECT "departments".* FROM "departments"  WHERE "departments"."hospital_id" = $1[0m  [["hospital_id", 7]]
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 2]]
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 3]]
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 7]]
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 14]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 32]]
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 33]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 34]]
+  Rendered admin/show.html.erb within layouts/application (112.6ms)
+Completed 200 OK in 148ms (Views: 112.5ms | ActiveRecord: 20.4ms)
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:28 -0400
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2014-06-13 01:00:30 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3Cz2PiBCnT9LDFw8YQ9/KE9I+g4MCSnRY2dsXvKs3UM="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 01:00:30 -0400
+Processing by DepartmentController#index as HTML
+  Rendered department/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:31 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:35 -0400
+
+
+Started GET "/login" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:36 -0400
+
+
+Started POST "/sessions" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P0CfDPjfU9C4KGqZa5qgGfFyAChxl/ayF+A5Wgvd608=", "sessions"=>{"email"=>"gabe@reingerrowe.biz", "password"=>"[FILTERED]"}, "commit"=>"Sign In!"}
+  [1m[36mAdmin Load (0.9ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."email" = 'gabe@reingerrowe.biz' LIMIT 1[0m
+Redirected to http://localhost:3000/admin/1
+Completed 302 Found in 80ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAdmin Load (0.7ms)[0m  SELECT  "admins".* FROM "admins"  WHERE "admins"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mHospital Load (0.7ms)[0m  [1mSELECT  "hospitals".* FROM "hospitals"  WHERE "hospitals"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mDepartment Load (0.5ms)[0m  [1mSELECT "departments".* FROM "departments"  WHERE "departments"."hospital_id" = $1[0m  [["hospital_id", 7]]
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 2]]
+  [1m[36mGroup Load (0.4ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 3]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 7]]
+  [1m[36mGroup Load (0.4ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 14]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 32]]
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 33]]
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 34]]
+  Rendered admin/show.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 32ms (Views: 23.8ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-13 01:00:42 -0400
