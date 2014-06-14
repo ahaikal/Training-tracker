@@ -25943,3 +25943,531 @@ Completed 200 OK in 33ms (Views: 27.5ms | ActiveRecord: 1.5ms)
   [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"  WHERE "users"."group_id" = $1[0m  [["group_id", 1]]
   [1m[35mGroup Load (0.9ms)[0m  SELECT  "groups".* FROM "groups"   ORDER BY "groups"."id" ASC LIMIT 1
   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"  WHERE "users"."group_id" = $1[0m  [["group_id", 1]]
+
+
+Started GET "/admin/1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mAdmin Load (0.5ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mHospital Load (0.9ms)[0m  SELECT  "hospitals".* FROM "hospitals"  WHERE "hospitals"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mDepartment Load (0.7ms)[0m  [1mSELECT "departments".* FROM "departments"  WHERE "departments"."hospital_id" = $1[0m  [["hospital_id", 7]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 2]]
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 3]]
+  [1m[35mGroup Load (0.7ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 7]]
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 14]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 32]]
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 33]]
+  [1m[35mGroup Load (0.5ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 34]]
+  Rendered admin/show.html.erb within layouts/application (111.9ms)
+Completed 200 OK in 173ms (Views: 119.0ms | ActiveRecord: 23.6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:57:23 -0400
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 18:57:26 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGroup Load (0.6ms)[0m  [1mSELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `users' for #<Class:0x007fedf5aa69d8>):
+  app/controllers/group_controller.rb:10:in `show'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.1ms)
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 18:57:27 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGroup Load (0.8ms)[0m  SELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `users' for #<Class:0x007fedf5aa69d8>):
+  app/controllers/group_controller.rb:10:in `show'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (51.8ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (68.9ms)
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 18:58:05 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered group/show.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: 
+    2: 
+    3: <% @employees.each do |emp| %>
+    4: <%= link_to emp.name, user.path %>
+    5: <% end %>
+  app/views/group/show.html.erb:3:in `_app_views_group_show_html_erb___3208559238590258462_70329994589400'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.4ms)
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 18:58:19 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGroup Load (0.6ms)[0m  SELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"  WHERE "users"."group_id" = $1[0m  [["group_id", 1]]
+  Rendered group/show.html.erb within layouts/application (18.6ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (undefined method `name' for #<User:0x007fedf23df490>):
+    1: 
+    2: 
+    3: <% @employees.each do |emp| %>
+    4: <%= link_to emp.name, user.path %>
+    5: <% end %>
+  app/views/group/show.html.erb:4:in `block in _app_views_group_show_html_erb___3208559238590258462_70329994589400'
+  app/views/group/show.html.erb:3:in `_app_views_group_show_html_erb___3208559238590258462_70329994589400'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.6ms)
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 18:59:11 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGroup Load (0.6ms)[0m  SELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"  WHERE "users"."group_id" = $1[0m  [["group_id", 1]]
+  Rendered group/show.html.erb within layouts/application (69.4ms)
+Completed 500 Internal Server Error in 90ms
+
+ActionView::Template::Error (private method `name' called for #<User:0x007fedf3c89a90>):
+    1: 
+    2: 
+    3: <% @employees.each do |emp| %>
+    4: <%= link_to emp.name, user.path %>
+    5: <% end %>
+  app/views/group/show.html.erb:4:in `block in _app_views_group_show_html_erb___3208559238590258462_70329994589400'
+  app/views/group/show.html.erb:3:in `_app_views_group_show_html_erb___3208559238590258462_70329994589400'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.7ms)
+
+
+Started GET "/admin/1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+Processing by AdminController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mAdmin Load (0.6ms)[0m  [1mSELECT  "admins".* FROM "admins"  WHERE "admins"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mHospital Load (0.4ms)[0m  SELECT  "hospitals".* FROM "hospitals"  WHERE "hospitals"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mDepartment Load (0.9ms)[0m  [1mSELECT "departments".* FROM "departments"  WHERE "departments"."hospital_id" = $1[0m  [["hospital_id", 7]]
+  [1m[35mGroup Load (0.6ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 2]]
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 3]]
+  [1m[35mGroup Load (0.5ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 7]]
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 14]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 32]]
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1[0m  [["department_id", 33]]
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 34]]
+  Rendered admin/show.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 96ms (Views: 55.4ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:59:45 -0400
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 18:59:47 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGroup Load (0.8ms)[0m  [1mSELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (2.5ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."group_id" = $1  [["group_id", 1]]
+  Rendered group/show.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (private method `name' called for #<User:0x007fedf5aecc08>):
+    1: 
+    2: 
+    3: <% @employees.each do |emp| %>
+    4: <%= link_to emp.name, user.path %>
+    5: <% end %>
+  app/views/group/show.html.erb:4:in `block in _app_views_group_show_html_erb___3208559238590258462_70330001755040'
+  app/views/group/show.html.erb:3:in `_app_views_group_show_html_erb___3208559238590258462_70330001755040'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.3ms)
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 18:59:47 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."group_id" = $1  [["group_id", 1]]
+  Rendered group/show.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (private method `name' called for #<User:0x007fedf480a630>):
+    1: 
+    2: 
+    3: <% @employees.each do |emp| %>
+    4: <%= link_to emp.name, user.path %>
+    5: <% end %>
+  app/views/group/show.html.erb:4:in `block in _app_views_group_show_html_erb___3208559238590258462_70329994589400'
+  app/views/group/show.html.erb:3:in `_app_views_group_show_html_erb___3208559238590258462_70329994589400'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.8ms)
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 19:00:14 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."group_id" = $1  [["group_id", 1]]
+  Rendered group/show.html.erb within layouts/application (80.9ms)
+Completed 500 Internal Server Error in 102ms
+
+ActionView::Template::Error (undefined local variable or method `user' for #<#<Class:0x007fedf381e460>:0x007fedf3825508>):
+    1: 
+    2: 
+    3: <% @employees.each do |emp| %>
+    4: <%= link_to emp.name, user.path %>
+    5: <% end %>
+  app/views/group/show.html.erb:4:in `block in _app_views_group_show_html_erb___3208559238590258462_70329994589400'
+  app/views/group/show.html.erb:3:in `_app_views_group_show_html_erb___3208559238590258462_70329994589400'
+
+
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/alan/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.2ms)
+
+
+Started GET "/group/1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+Processing by GroupController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT  "groups".* FROM "groups"  WHERE "groups"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"  WHERE "users"."group_id" = $1  [["group_id", 1]]
+  Rendered group/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/department.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/education.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/group.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/hospital.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:28 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/department.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/education.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/group.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/hospital.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 19:00:29 -0400
