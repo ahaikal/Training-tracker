@@ -57,6 +57,7 @@ end
 	duration: Faker::Number.digit,
 	location: Faker::Address.state,
 	description: Faker::Lorem.sentence(5, true),
+	user_id: Faker::Number.number(1)
 		)
 end
 

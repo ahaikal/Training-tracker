@@ -1,5 +1,6 @@
 
-
+<ul>
 <% @employees.each do |emp| %>
-<%= link_to emp.name, user_path %>
+ <li><%= link_to emp.name, user_path %></li>
 <% end %>
+</ul>
