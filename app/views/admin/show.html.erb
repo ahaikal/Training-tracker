@@ -7,7 +7,7 @@
 	
 	<ul>
 		<% @departments.each do |dep| %>
-		<li>Department: <%= link_to dep.name, department_path %>
+		<li>Department: <%= link_to dep.name, department_path(dep) %>
 				<ul>
 					<% dep.groups.each do |group| %>
 					<li>
