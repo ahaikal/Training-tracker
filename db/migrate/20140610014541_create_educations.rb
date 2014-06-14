@@ -8,6 +8,7 @@ class CreateEducations < ActiveRecord::Migration
     	t.text :description
     	t.boolean :attended
     	t.date :date_completed
+      t.belongs_to :user
 
       t.timestamps
     end
