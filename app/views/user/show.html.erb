@@ -2,7 +2,12 @@
 <ul>
 	<% @education.each do |edu| %>
 	<li> 
-<%= edu.name %>
+	<%= edu.name %>
+		<ul>
+		<li>
+			<%= edu.attended? %>
+		</li>
+	</ul>
 	</li>
 	<% end %>
 </ul>
