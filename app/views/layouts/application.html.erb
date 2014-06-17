@@ -7,6 +7,32 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<!-- nav bar-->
+
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Tracker</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <% if current_user %>
+          <li><%= link_to "Main Menu", admin_path %></li>
+          
+          <li><button type="button" class="btn btn-warning btn-lg"><%= link_to 'Sign Out', logout_path, method: "delete" %> </button></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end nav bar -->
 <div class="container">
   <div class="row">
     <div class="span9"><%= yield %></div>
