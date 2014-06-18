@@ -39915,3 +39915,5 @@ Processing by AdminController#show as HTML
   [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"  WHERE "groups"."department_id" = $1  [["department_id", 14]]
   Rendered admin/show.html.erb within layouts/application (8.8ms)
 Completed 200 OK in 27ms (Views: 20.8ms | ActiveRecord: 2.9ms)
+  [1m[35mHospital Load (1.5ms)[0m  SELECT  "hospitals".* FROM "hospitals"   ORDER BY "hospitals"."id" DESC LIMIT 1
+  [1m[36mDepartment Load (0.6ms)[0m  [1mSELECT "departments".* FROM "departments"  WHERE "departments"."hospital_id" = $1[0m  [["hospital_id", 20]]

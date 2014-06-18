@@ -33,6 +33,10 @@ gem 'twitter-bootstrap-rails'
 gem 'bcrypt', '~> 3.1.7'
 gem 'faker', require: false
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
